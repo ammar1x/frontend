@@ -6,6 +6,7 @@ const buttonClassName = 'button button--primary';
 const buttonCurrentClassName = 'button--crossword--current';
 const buttonGenericClassName = 'button--secondary';
 
+// TODO: make functional stateless component
 class Controls extends Component {
     render() {
         const hasSolutions = this.props.hasSolutions;
